@@ -1,4 +1,4 @@
-package the.kis.devs.api.setting;
+package the.kis.devs.api.settings;
 
 import com.kisman.cc.features.module.Module;
 import com.kisman.cc.gui.csgo.components.Slider;

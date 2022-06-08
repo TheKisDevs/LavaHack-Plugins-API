@@ -1,4 +1,4 @@
-package the.kis.devs.api.setting.types;
+package the.kis.devs.api.settings.types;
 
 import com.kisman.cc.settings.Setting;
 import com.kisman.cc.settings.types.SettingGroup;

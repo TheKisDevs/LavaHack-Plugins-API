@@ -2,6 +2,7 @@ package the.kis.devs.api.features.hud;
 
 import com.kisman.cc.Kisman;
 import com.kisman.cc.features.hud.HudModule;
+import com.kisman.cc.features.hud.HudModuleManager;
 
 import java.util.List;
 
