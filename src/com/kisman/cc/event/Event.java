@@ -1,6 +1,7 @@
 package com.kisman.cc.event;
 
 import com.kisman.cc.Kisman;
+import me.zero.alpine.event.type.Cancellable;
 
 /**
  * Shadow class
@@ -8,7 +9,7 @@ import com.kisman.cc.Kisman;
  * @author _kisman_
  * @since 19:06 of 09.06.2022
  */
-public class Event {
+public class Event extends Cancellable {
     private Era era;
     public Event() {}
     public Event(Era era) {this.era = era;}

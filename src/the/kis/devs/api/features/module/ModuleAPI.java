@@ -3,6 +3,7 @@ package the.kis.devs.api.features.module;
 import com.kisman.cc.features.module.Module;
 import com.kisman.cc.settings.Setting;
 import com.kisman.cc.settings.types.SettingGroup;
+import the.kis.devs.api.settings.SettingAPI;
 
 import java.util.function.Supplier;
 
@@ -15,6 +16,7 @@ public class ModuleAPI extends Module {
     public void setToggled(boolean toggled) {super.setToggled(toggled);}
     public void toggle() {super.toggle();}
     public Setting register(Setting set) {return super.register(set);}
+    public SettingAPI register(SettingAPI set) {return (SettingAPI) super.register(set);}
     public SettingGroup register(SettingGroup group) {return super.register(group);}
     public void setDescription(String description) {super.setDescription(description);}
     public void setKey(int key) {super.setKey(key);}

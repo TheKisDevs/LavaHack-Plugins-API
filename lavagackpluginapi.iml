@@ -20,6 +20,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="forgeSrc-1.12.2-14.23.5.2768-PROJECT(lava_hack)" level="project" />
+    <orderEntry type="library" name="forge" level="project" />
   </component>
 </module>
