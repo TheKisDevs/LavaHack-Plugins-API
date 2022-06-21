@@ -1,7 +1,8 @@
 package com.kisman.cc.settings;
 
 import com.kisman.cc.features.module.Module;
-import com.kisman.cc.gui.csgo.components.Slider;
+
+import com.kisman.cc.settings.types.number.NumberType;
 import com.kisman.cc.util.Colour;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
@@ -26,7 +27,7 @@ public class Setting {
     public Setting(String name, Module parent, String sval, List<String> options) {}
     public Setting(String name, Module parent, Enum options) {}
     public Setting(String name, Module parent, boolean bval) {}
-    public Setting(String name, Module parent, double dval, double min, double max, Slider.NumberType numberType) {}
+    public Setting(String name, Module parent, double dval, double min, double max, NumberType numberType) {}
     public Setting(String name, Module parent, double dval, double min, double max, boolean onlyint) {}
     public Setting(String name, Module parent, String title, Colour colour) {}
     public Setting(String name, Module parent, Colour colour) {}
@@ -43,8 +44,8 @@ public class Setting {
     public String[] getStringValues() {return null;}
     public String getStringFromIndex(int index) {return null;}
     public int getSelectedIndex() {return 0;}
-    public Slider.NumberType getNumberType() {return null;}
-    public void setNumberType(Slider.NumberType numberType) {}
+    public NumberType getNumberType() {return null;}
+    public void setNumberType(NumberType numberType) {}
     public Entity getEntity() {return null;}
     public int getValInt() {return 0;}
     public int getKey() {return 0;}
