@@ -1,0 +1,33 @@
+plugins {
+    id 'maven-publish'
+    id 'java-library'
+}
+
+version = '1.3.1'
+
+dependencies {
+    implementation(files('libs/forge.jar'))
+}
+
+java {
+    withSourcesJar()
+}
+
+jar {
+    manifest.attributes(
+        'Implementation-Title': 'LavaHack-Plugins-API',
+        'Implementation-Version': '1.3.1'
+    )
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'the.kis.devs'
+            artifactId = 'api'
+            version = '1.3.1'
+
+            from components.java
+        }
+    }
+}
