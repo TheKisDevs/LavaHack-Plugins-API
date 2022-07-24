@@ -27,7 +27,7 @@ public class Setting {
     public Setting(String name, Module parent, String sval, List<String> options) {}
     public Setting(String name, Module parent, Enum<?> options) {}
     public Setting(String name, Module parent, boolean bval) {}
-    public Setting(String name, Module parent, double dval, double min, double max, NumberType numberType) {}
+    public Setting(String name, Module parent, double dval, double min, double max, Slider.NumberType numberType) {}
     public Setting(String name, Module parent, double dval, double min, double max, boolean onlyint) {}
     public Setting(String name, Module parent, String title, Colour colour) {}
     public Setting(String name, Module parent, Colour colour) {}
