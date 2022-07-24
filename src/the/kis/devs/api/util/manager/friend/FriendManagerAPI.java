@@ -9,6 +9,7 @@ import java.util.ArrayList;
  * @author _kisman_
  * @since 23:20 of 15.06.2022
  */
+@SuppressWarnings("unused")
 public class FriendManagerAPI {
     public static ArrayList<String> getFriends() {return FriendManager.instance.getFriends();}
     public static void addFriend(String name) {FriendManager.instance.addFriend(name);}

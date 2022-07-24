@@ -10,6 +10,7 @@ import java.util.ArrayList;
  * @author _kisman_
  * @since 23:20 of 15.06.2022
  */
+@SuppressWarnings("unused")
 public class FriendManager {
     public static FriendManager instance;
     public ArrayList<String> getFriends() {return null;}

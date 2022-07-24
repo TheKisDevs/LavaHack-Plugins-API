@@ -15,6 +15,7 @@ import java.util.Map;
  * @author _kisman_
  * @since 20:44 of 15.06.2022
  */
+@SuppressWarnings("unused")
 public class ChatUtilityAPI {
     private static final Minecraft mc;
 

@@ -10,6 +10,7 @@ import java.awt.*;
  * @author _kisman_
  * @since 23:54 of 15.06.2022
  */
+@SuppressWarnings("unused")
 public class ColourAPI extends Colour {
     public ColourAPI(float[] hsb) {super(hsb);}
     public ColourAPI() {}

@@ -10,6 +10,7 @@ import java.util.function.Supplier;
  * @author _kisman_
  * @since 18:02 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class HudModuleAPI extends HudModule {
     public HudModuleAPI(String name, String description) {this(name, description, false);}
     public HudModuleAPI(String name, String description, boolean drag) {super(name, description, drag);}

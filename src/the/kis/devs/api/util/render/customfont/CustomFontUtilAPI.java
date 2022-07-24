@@ -6,6 +6,7 @@ import com.kisman.cc.util.render.customfont.CustomFontUtil;
  * @author _kisman_
  * @since 21:47 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class CustomFontUtilAPI {
     public static int getStringWidth(String text) {return CustomFontUtil.getStringWidth(text);}
     public static int getStringWidth(String text, boolean gui) {return CustomFontUtil.getStringWidth(text, gui);}

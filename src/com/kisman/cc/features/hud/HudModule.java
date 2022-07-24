@@ -13,6 +13,7 @@ import java.util.function.Supplier;
  * @author _kisman_
  * @since 21:03 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class HudModule extends Module {
     public HudModule(String name, String description) {super(name, description, Category.RENDER);}
     public HudModule(String name, String description, boolean drag) {this(name, description);}

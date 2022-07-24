@@ -1,7 +1,7 @@
 package com.kisman.cc.settings;
 
 import com.kisman.cc.features.module.Module;
-import com.kisman.cc.gui.csgo.components.Slider;
+import com.kisman.cc.settings.types.number.NumberType;
 import com.kisman.cc.util.Colour;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
@@ -16,6 +16,7 @@ import java.util.function.Supplier;
  * @author _kisman_
  * @since 21:19 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class Setting {
     public Setting(String type) {}
     public Setting(String name, Module parent, int key) {}
@@ -24,9 +25,9 @@ public class Setting {
     public Setting(String name, Module parent, String title) {}
     public Setting(String name, Module parent, String sval, ArrayList<String> options) {}
     public Setting(String name, Module parent, String sval, List<String> options) {}
-    public Setting(String name, Module parent, Enum options) {}
+    public Setting(String name, Module parent, Enum<?> options) {}
     public Setting(String name, Module parent, boolean bval) {}
-    public Setting(String name, Module parent, double dval, double min, double max, Slider.NumberType numberType) {}
+    public Setting(String name, Module parent, double dval, double min, double max, NumberType numberType) {}
     public Setting(String name, Module parent, double dval, double min, double max, boolean onlyint) {}
     public Setting(String name, Module parent, String title, Colour colour) {}
     public Setting(String name, Module parent, Colour colour) {}
@@ -43,8 +44,8 @@ public class Setting {
     public String[] getStringValues() {return null;}
     public String getStringFromIndex(int index) {return null;}
     public int getSelectedIndex() {return 0;}
-    public Slider.NumberType getNumberType() {return null;}
-    public void setNumberType(Slider.NumberType numberType) {}
+    public NumberType getNumberType() {return null;}
+    public void setNumberType(NumberType numberType) {}
     public Entity getEntity() {return null;}
     public int getValInt() {return 0;}
     public int getKey() {return 0;}
@@ -57,7 +58,7 @@ public class Setting {
     public int getIndex() {return 0;}
     public void setIndex(int index) {}
     public String getTitle() {return null;}
-    public void setTitle(String title) {}
+    public Setting setTitle(String title) {return null;}
     public String getName() {return null;}
     public Setting setName(String name) {return null;}
     public Module getParentMod() {return null;}

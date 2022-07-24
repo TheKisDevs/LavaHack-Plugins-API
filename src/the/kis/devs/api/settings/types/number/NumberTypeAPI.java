@@ -6,6 +6,7 @@ import com.kisman.cc.settings.types.number.NumberType;
  * @author _kisman_
  * @since 11:52 of 21.06.2022
  */
+@SuppressWarnings("unused")
 public enum NumberTypeAPI {
     PERCENT(NumberType.PERCENT),
     TIME(NumberType.TIME),

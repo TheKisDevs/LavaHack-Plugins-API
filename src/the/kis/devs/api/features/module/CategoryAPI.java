@@ -6,6 +6,7 @@ import com.kisman.cc.features.module.Category;
  * @author _kisman_
  * @since 17:41 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public enum CategoryAPI {
     COMBAT(Category.COMBAT),
     CLIENT(Category.CLIENT),

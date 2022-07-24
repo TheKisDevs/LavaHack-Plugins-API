@@ -8,6 +8,7 @@ import net.minecraft.util.text.ITextComponent;
  * @author _kisman_
  * @since 21:06 of 15.06.2022
  */
+@SuppressWarnings("unused")
 public abstract class AbstractChatMessage {
     public final void printMessage(ITextComponent textComponent){}
     public final void printMessage(String textComponentMessage){}

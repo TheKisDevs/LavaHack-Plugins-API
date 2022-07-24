@@ -9,6 +9,7 @@ import java.util.List;
  * @author _kisman_
  * @since 17:06 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class ModuleManagerAPI {
     public static List<Module> getModules() {
         return Kisman.instance.moduleManager.modules;

@@ -6,6 +6,7 @@ import com.kisman.cc.util.TimerUtils;
  * @author _kisman_
  * @since 13:10 of 16.06.2022
  */
+@SuppressWarnings("unused")
 public class TimerUtilsAPI extends TimerUtils {
     @Override public boolean isDelay(long delay) {return super.isDelay(delay);}
     @Override public boolean hasTimeElapsed(long time, boolean reset) {return super.hasTimeElapsed(time, reset);}

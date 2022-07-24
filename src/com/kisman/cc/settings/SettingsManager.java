@@ -8,6 +8,7 @@ import java.util.List;
  * @author _kisman_
  * @since 21:22 of 08.06.2022
  */
+@SuppressWarnings({"UnusedReturnValue", "unused"})
 public class SettingsManager {
     public static List<Setting> getSettings() {
         return null;

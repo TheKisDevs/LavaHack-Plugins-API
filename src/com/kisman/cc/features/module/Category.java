@@ -1,6 +1,7 @@
 package com.kisman.cc.features.module;
 
 //Shadow class
+@SuppressWarnings("unused")
 public enum Category {
     COMBAT(""),
     CLIENT(""),

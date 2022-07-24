@@ -11,6 +11,7 @@ import java.util.List;
  * @author _kisman_
  * @since 21:21 of 15.06.2022
  */
+@SuppressWarnings({"unused", "RedundantThrows"})
 public class ReflectUtil {
     public static Class<?> getCallerClass(){return null;}
     public static Class<?> getCallerClass(int depth){return null;}

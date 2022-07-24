@@ -6,6 +6,7 @@ import net.minecraft.util.math.Vec3d;
 import java.awt.*;
 
 //Shadow class
+@SuppressWarnings("ConstantConditions")
 public class Colour {
     public static final int COLOR_RAINBOW;
     public static final int COLOR_ASTOLFO;

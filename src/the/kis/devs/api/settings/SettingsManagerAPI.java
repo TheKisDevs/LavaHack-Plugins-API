@@ -10,6 +10,7 @@ import java.util.List;
  * @author _kisman_
  * @since 17:09 of 08.06.2022
  */
+@SuppressWarnings({"AccessStaticViaInstance", "unused", "ResultOfMethodCallIgnored"})
 public class SettingsManagerAPI {
     public static List<Setting> getSettings() {
         return Kisman.instance.settingsManager.getSettings();

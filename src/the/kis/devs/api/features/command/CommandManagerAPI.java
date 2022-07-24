@@ -9,6 +9,7 @@ import java.util.ArrayList;
  * @author _kisman_
  * @since 17:07 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class CommandManagerAPI {
     public static ArrayList<Command> getCommands() {
         return CommandManager.commands;

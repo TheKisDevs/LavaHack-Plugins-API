@@ -12,6 +12,7 @@ import me.zero.alpine.bus.EventManager;
  * @author _kisman_
  * @since 20:50 of 08.06.2022
  */
+@SuppressWarnings("InstantiationOfUtilityClass")
 public class Kisman {
     public static final EventBus EVENT_BUS = new EventManager();
     public static final Kisman instance = new Kisman();

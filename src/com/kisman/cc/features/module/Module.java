@@ -12,6 +12,7 @@ import java.util.function.Supplier;
  * @author _kisman_
  * @since 20:54 of 08.06.2022
  */
+@SuppressWarnings({"unused", "BooleanMethodIsAlwaysInverted"})
 public class Module {
     public static Minecraft mc = Minecraft.getMinecraft();
     public Module(String name, Category category) {}

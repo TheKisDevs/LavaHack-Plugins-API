@@ -10,8 +10,6 @@ import com.kisman.cc.settings.Setting;
  */
 public class SettingGroup {
     public SettingGroup(Setting setting) {}
-
-    public Setting add(Setting setting) {
-        return null;
-    }
+    public Setting add(Setting setting) {return null;}
+    public SettingGroup add(SettingGroup group) {return null;}
 }

@@ -6,6 +6,7 @@ package com.kisman.cc.util.render.customfont;
  * @author _kisman_
  * @since 21:53 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class CustomFontUtil {
     public static int getStringWidth(String text) {return 0;}
     public static int getStringWidth(String text, boolean gui) {return 0;}

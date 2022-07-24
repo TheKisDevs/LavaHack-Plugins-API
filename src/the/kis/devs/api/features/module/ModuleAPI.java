@@ -11,6 +11,7 @@ import java.util.function.Supplier;
  * @author _kisman_
  * @since 17:24 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class ModuleAPI extends Module {
     public ModuleAPI(String name, String description, CategoryAPI category) {super(name, description, category.category);}
     public void setToggled(boolean toggled) {super.setToggled(toggled);}

@@ -10,6 +10,7 @@ import java.util.List;
  * @author _kisman_
  * @since 19:28 of 08.06.2022
  */
+@SuppressWarnings({"AccessStaticViaInstance", "unused"})
 public class HudModuleManagerAPI {
     public static List<HudModule> getModules() {
         return Kisman.instance.hudModuleManager.modules;

@@ -7,6 +7,7 @@ import me.zero.alpine.bus.EventBus;
  * @author _kisman_
  * @since 17:04 of 08.06.2022
  */
+@SuppressWarnings("unused")
 public class KismanAPI {
     public static EventBus getEventBus() {
         return Kisman.EVENT_BUS;
